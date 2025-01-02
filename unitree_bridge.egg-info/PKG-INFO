@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: unitree_bridge
+Version: 0.1.0
+Summary: unitree_bridge
+Home-page: https://github.com/hsh/unitree_inference
+Author: hsh
+Author-email: 1653996628@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
