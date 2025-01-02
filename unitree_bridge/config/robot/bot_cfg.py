@@ -26,3 +26,4 @@ class GO2(Bot_def_cfg):
     "RL_calf"   # calf
 )
     #
+
