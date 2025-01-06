@@ -1,5 +1,6 @@
 setup.py
 unitree_bridge/__init__.py
+unitree_bridge/a2c.py
 unitree_bridge/himloco.py
 unitree_bridge.egg-info/PKG-INFO
 unitree_bridge.egg-info/SOURCES.txt

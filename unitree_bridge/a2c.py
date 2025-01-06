@@ -47,7 +47,7 @@ class A2C(UnitreeBase):
         self.algo_obs = single_obs
         
         # 记录 algo_obs 数据
-        self.record_algo_obs(single_obs)
+        #self.record_algo_obs(single_obs)
     def forward(self, imu_data, motor_state, velocity_commands,Kp,Kd):
         with torch.inference_mode():
             # 数据预处理

@@ -38,9 +38,9 @@ class A2CConfig_ge(Algo_def_cfg):
         0.0,1.0,-1.5,
     ]    
     
-    base_ang_vel_scale = 0.1
+    base_ang_vel_scale = 0.25*0.25
     joint_pos_scale = 1.0
-    joint_vel_scale = 0.05
+    joint_vel_scale = 0.05*0.5
     actions_scale = 0.25
 
 class HIMConfig_lab(Algo_def_cfg):
@@ -69,7 +69,7 @@ class HIMConfig_lab(Algo_def_cfg):
         0.8000,  0.8000,  1.0000,  1.0000,
         -1.5000, -1.5000, -1.5000, -1.5000]   
     
-    base_ang_vel_scale = 0.25/1.5
+    base_ang_vel_scale = 0.25*0.5#由于实际IMU有很大噪声，因此将相关参数乘0.5防止抖动
     joint_pos_scale = 1.0
     joint_vel_scale = 0.05
     
